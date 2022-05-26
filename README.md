@@ -4,17 +4,22 @@
 
 matlab-scripts  by whs
 
- 1  conduct.m       #calculate  optical conductivity
+ dir TOOL-OCTOPUS
  
- 2  density.m       #collect density date from a time-depend calculation (only for spin-polarazation case)
+ 1  conduct.m       # calculate  optical conductivity
  
- 3  diffdensity.m   #calculate time-depend density difference (after density.m)
+ 2  density.m       # collect density date from a time-depend calculation (only for spin-polarazation case)
  
- 4  FFTdensity.m    #fourier transform of density 
+ 3  diffdensity.m   # calculate time-depend density difference (after density.m)
  
- 5  mesh.m          #.xsf formate to Origin formate (density)
+ 4  FFTdensity.m    # fourier transform of density 
  
- 6  rSMD.m          #root squart movement displacement in td-dft calculation with tag "MoveIon=yes"
+ 5  mesh.m          # .xsf formate to Origin formate (density)
+ 
+ 6  rSMD.m          # root squart movement displacement in td-dft calculation with tag "MoveIon=yes"
  
 python-scripts  by cooman long 
- 1 8hx
+ 
+ dir FE-mesh
+ 
+ 1  8HEX.py          # create 8 vertex sub-mesh nodes and coordinates 
